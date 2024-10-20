@@ -1,0 +1,42 @@
+.result-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .result-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .result-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .result-container button {
+    padding: 12px 24px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .result-container button:hover {
+    background-color: #6a11cb;
+  }
+  
